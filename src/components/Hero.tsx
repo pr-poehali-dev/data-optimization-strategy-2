@@ -23,15 +23,29 @@ export default function Hero() {
           alt="Mountain landscape"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-xs md:text-sm uppercase tracking-widest mb-4 opacity-80">Реабилитационный центр</p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
+          ПУТЬ К<br />СВОБОДЕ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-10">
+          Профессиональная помощь в преодолении зависимости. Индивидуальный подход, полная конфиденциальность, устойчивый результат.
         </p>
+        <a
+          href="#contact"
+          className="inline-block bg-teal-700 text-white px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-teal-800 transition-colors duration-300 mr-4"
+        >
+          Получить помощь
+        </a>
+        <a
+          href="#about"
+          className="inline-block border border-white text-white px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-white hover:text-neutral-900 transition-colors duration-300"
+        >
+          О центре
+        </a>
       </div>
     </div>
   );
