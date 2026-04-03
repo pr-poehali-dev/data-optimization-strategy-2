@@ -35,10 +35,10 @@ export default function Hero() {
           Профессиональная помощь в преодолении зависимости. Индивидуальный подход, полная конфиденциальность, устойчивый результат.
         </p>
         <a
-          href="#contact"
+          href="tel:+79960050806"
           className="inline-block bg-teal-700 text-white px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-teal-800 transition-colors duration-300 mr-4"
         >
-          Получить помощь
+          Позвонить нам
         </a>
         <a
           href="#about"
