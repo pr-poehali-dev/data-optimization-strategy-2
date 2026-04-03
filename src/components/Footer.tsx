@@ -16,12 +16,7 @@ export default function Footer() {
                 >
                   О нас
                 </a>
-                <a
-                  href="#programs"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Программы
-                </a>
+
 
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">

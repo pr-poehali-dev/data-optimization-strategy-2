@@ -31,9 +31,7 @@ export default function Featured() {
             <span className="text-sm uppercase tracking-wide">Сопровождение после выписки</span>
           </div>
         </div>
-        <button className="bg-teal-700 text-white border border-teal-700 px-6 py-3 text-sm transition-all duration-300 hover:bg-teal-800 cursor-pointer w-fit uppercase tracking-wide">
-          Узнать о программах
-        </button>
+
       </div>
     </div>
   );
