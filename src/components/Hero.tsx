@@ -27,7 +27,7 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative z-10 text-center text-white px-6">
-        <p className="text-xs md:text-sm uppercase tracking-widest mb-4 opacity-80">Реабилитационный центр «Единое Начало»</p>
+        <p className="text-xs md:text-sm uppercase tracking-widest mb-4 opacity-80">Реабилитационный центр «Единое Начало» · Нижний Новгород</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
           ПУТЬ К<br />СВОБОДЕ
         </h1>
