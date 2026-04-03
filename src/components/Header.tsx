@@ -9,7 +9,7 @@ export default function Header({ className }: HeaderProps) {
         <div className="text-white text-sm uppercase tracking-wide">Единое Начало</div>
         <nav className="flex items-center gap-8">
           <a
-            href="#about"
+            href="/about"
             className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
           >
             О центре
