@@ -36,15 +36,9 @@ export default function Hero() {
         </p>
         <a
           href="tel:+79960050806"
-          className="inline-block bg-teal-700 text-white px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-teal-800 transition-colors duration-300 mr-4"
+          className="inline-block bg-teal-700 text-white px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-teal-800 transition-colors duration-300"
         >
           Позвонить нам
-        </a>
-        <a
-          href="#about"
-          className="inline-block border border-white text-white px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-white hover:text-neutral-900 transition-colors duration-300"
-        >
-          О центре
         </a>
       </div>
     </div>
